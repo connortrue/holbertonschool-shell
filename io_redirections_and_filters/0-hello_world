@@ -1,2 +1,2 @@
 #!/bin/bash
->1 print "Hello, World/n"
+cat "Hello, World/n" >1
