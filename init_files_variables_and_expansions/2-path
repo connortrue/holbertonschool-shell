@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -type d /action >> $PATH
+cat -type d /action $PATH
