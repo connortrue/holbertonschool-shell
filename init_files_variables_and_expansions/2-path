@@ -1,2 +1,2 @@
 #!/bin/bash
-/action >> $PATH
+cat /action $PATH
