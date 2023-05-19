@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script echos "Best School" 10 times
+for i < 10; do
+	echo "Best School"
