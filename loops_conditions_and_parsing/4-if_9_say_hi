@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script echos "Best School" 10 times
+export counter=1
+until [ $counter -gt 10 ]
+do
+	if [ $counter -eq 10 ]
+		echo "Hi"
+	fi
+	echo "Best School"
+	((counter++))
+done
