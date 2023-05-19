@@ -1,0 +1,2 @@
+#!/bin/bash
+$BINARY=$(((wc -m $BINARY)**2))
