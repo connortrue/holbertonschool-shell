@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script reads the apache-access.log file, pipes it into awk to print
+# the first and 9th fields, the ip address and the HTTP error code
+cat apache-access.log | awk '{print $1 " " $9}'
