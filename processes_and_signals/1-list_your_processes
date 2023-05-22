@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script uses the ps command to print processes. the e option shows all 
+# processes for all users, the f option formats it, and the --forest option
+# shows the process hierarchy
+ps -ef --forest
