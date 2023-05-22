@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script uses a constantly true while loop to print words and sleep for 2 seconds. 
+while true
+do
+  echo "To infinity and beyond"
+  sleep 2
+done
