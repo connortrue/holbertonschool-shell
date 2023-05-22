@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script uses the ps command to print processes. the e option shows all 
+while true
+do
+	echo 'I am alive!'
+	sleep 2
+done
