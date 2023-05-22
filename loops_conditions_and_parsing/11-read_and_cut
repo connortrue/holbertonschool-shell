@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script uses a while loop to read the contents of the /etc/passwd file line by line. for eah line it uses the Internal Field Seperator variable to split the line into fields seperated by colons. It then assigns each field to a variable and prints the username, user id, and home directory path for the user.
+while IFS=: read -r user pass uid gid desc home shell; do
+  echo "username: $user"
+  echo "user id: $uid"
+  echo "home directory path for the user: $home"
+done < /etc/passwd
