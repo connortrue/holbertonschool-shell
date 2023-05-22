@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script uses pgrep to search for proccess names and f to search the entire command line 
-pid=$(pgrep 4-to_infinity_and_beyond)
+# This script uses assigns a variable 
+export pid=$(pgrep 4-to_infinity_and_beyond)
 kill "$pid"
