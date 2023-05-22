@@ -7,4 +7,5 @@ trap 'rm -f /var/run/myscript.pid' SIGQUIT SIGTERM
 while true
 do
        echo "To infinity and beyond"
+       trap 'echo "I hate the kill command"' SIGTERM
 done
