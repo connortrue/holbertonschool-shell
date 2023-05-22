@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script uses pkill to kill any process with beyond in the name 
+trap 'echo "I am invincible!!!"; exit 0' SIGTERM
+
+while true; do
+    echo "To infinity and beyond indefinitely"
+    sleep 2
+done
